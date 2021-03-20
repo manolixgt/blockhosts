@@ -1,0 +1,1 @@
+call D:\MyDesktop\manolix\biggtronic.com\blockhosts\venv\Scripts\activate.bat && python D:\MyDesktop\manolix\biggtronic.com\blockhosts\blockhosts.py
