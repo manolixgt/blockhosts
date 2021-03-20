@@ -5,8 +5,8 @@ import os, subprocess, sys
 
 logging.basicConfig()
 logging.getLogger('activar_hosts').setLevel(logging.DEBUG)
-#project dir
 
+#project dir
 PROJ_DIR="D:\\MyDesktop\\manolix\\biggtronic.com\\app_blockhosts"
 
 #current time variable
@@ -22,7 +22,7 @@ file1.close()
 
 
 def activar_hosts():
-#elevate(show_console=False)
+
     print('adding domains to host file')
     p = subprocess.Popen(["powershell.exe", 
                 "D:\\MyDesktop\\manolix\\biggtronic.com\\app_blockhosts\\AddToHosts.ps1 -Hostname www.youtube.com -DesireIP 127.0.0.1"], 
