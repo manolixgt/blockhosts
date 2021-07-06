@@ -2,4 +2,4 @@ call D:\MyDesktop\manolix\biggtronic.com\app_blockhosts\venv\Scripts\activate.ba
 
 move C:\Users\Tahuite\AppData\Roaming\.minecraft\TLauncher.exe2 C:\Users\Tahuite\AppData\Roaming\.minecraft\TLauncher.exe
 
-move "C:\Program Files (x86)\BlueStacks\HD-RunApp.exe2" "C:\Program Files (x86)\BlueStacks\HD-RunApp.exe"
+@REM move "C:\Program Files (x86)\BlueStacks\HD-RunApp.exe2" "C:\Program Files (x86)\BlueStacks\HD-RunApp.exe"

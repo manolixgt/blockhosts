@@ -45,7 +45,7 @@ def desactivar_hosts():
     p.communicate()
 
     p = subprocess.Popen(["powershell.exe", 
-                "D:\\MyDesktop\\manolix\\biggtronic.com\\app_blockhosts\\RemoveFromHosts.ps1 -Hostname web.roblox.com"], 
+                "D:\\MyDesktop\\manolix\\biggtronic.com\\app_blockhosts\\RemoveFromHosts.ps1 -Hostname www.roblox.com"], 
                 stdout=sys.stdout)
     p.communicate()        
 

@@ -45,7 +45,7 @@ def activar_hosts():
     p.communicate()
 
     p = subprocess.Popen(["powershell.exe", 
-                "D:\\MyDesktop\\manolix\\biggtronic.com\\app_blockhosts\\AddToHosts.ps1 -Hostname web.roblox.com -DesireIP 127.0.0.1"], 
+                "D:\\MyDesktop\\manolix\\biggtronic.com\\app_blockhosts\\AddToHosts.ps1 -Hostname www.roblox.com -DesireIP 127.0.0.1"], 
                 stdout=sys.stdout)
     p.communicate()        
 
